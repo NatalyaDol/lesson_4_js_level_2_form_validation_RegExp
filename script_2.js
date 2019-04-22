@@ -16,4 +16,8 @@ var changeText = () => {
     console.log(str);
 
     textAfter.innerText = str.replace(/^'|(\s)'|'(\s)|'$/g, '$1"$2');
+    
+    
+    //вариант учителя
+    //textAfter.innerText = str.replace(/\B'|'\B/g, '"');
 };
